@@ -12,7 +12,7 @@ model = None
 try:
     # NOTE: Replace with your actual, valid API key.
     # It's recommended to load API keys from environment variables for security.
-    API_KEY = "YOUR_API_KEY"
+    API_KEY = "YOUR_GEMINI_API_KEY"
     genai.configure(api_key=API_KEY)
     model = genai.GenerativeModel('gemini-2.5-pro')
 except Exception as e:
